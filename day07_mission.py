@@ -1,8 +1,9 @@
-#10.1
-class Thing:
-    pass
+#10.2
 
-example = Thing()
+class Thing2:
+    letters = 'abc'
 
-print(Thing)
-print(example)
+print(Thing2.letters)
+
+
+
