@@ -1,9 +1,9 @@
-#10.2
+#10.3
 
-class Thing2:
-    letters = 'abc'
+class Thing3:
+    def __init__(self):
+        self.a = 'xyz'
 
-print(Thing2.letters)
-
-
+letters = Thing3()
+print(letters.a)
 
